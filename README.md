@@ -22,5 +22,4 @@ Notes:
 2. Find the Sample JSON file inside 'src/main/resource/data 
 ```
 
-:computer:
-# Happy Coding!
+:computer: - Happy Coding!
