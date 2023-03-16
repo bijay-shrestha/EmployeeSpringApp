@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "7353afc2-a975-4f47-b2b1-dee07b43161a",
+		"name": "Interview",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3298064"
+	},
+	"item": [
+		{
+			"name": "Get Highest Paid Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/employee",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Female Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/employee/female",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"female"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"name\": \"Robin Hood\",\n    \"address\": \"12th St. Rhode Islant, CA, 06228\",\n    \"gender\": \"M\",\n    \"salary\": 100050.25,\n    \"bonus\": 100.10\n  },\n  {\n    \"name\": \"Mikhaila James\",\n    \"address\": \"42nd Street, Brooklyn Avenue, NY, 11065\",\n    \"gender\": \"F\",\n    \"salary\": 400050.25,\n    \"bonus\": 200.10\n  },\n  {\n    \"name\": \"James Bond\",\n    \"address\": \"1002N Fifth Street, Fairfield, IA, 11220\",\n    \"gender\": \"M\",\n    \"salary\": 200050.25,\n    \"bonus\": 300.10\n  },\n  {\n    \"name\": \"Teddi Arnold\",\n    \"address\": \"4th Folsom Street, San Francisco, CA, 97729\",\n    \"gender\": \"F\",\n    \"salary\": 300050.25,\n    \"bonus\": 400.10\n  },\n  {\n    \"name\": \"Leyna Whittaker\",\n    \"address\": \"147th Hillcrest Ave., Floral Island, FL, 22198\",\n    \"gender\": \"F\",\n    \"salary\": 3500780.25,\n    \"bonus\": 470.50\n  }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employee",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
