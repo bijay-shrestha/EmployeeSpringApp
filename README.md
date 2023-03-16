@@ -4,7 +4,7 @@
 
 Given List of `Employee` with attributes such as:
 ```
-id (Integer),
+id (Integer) PK AUTO_INCREMENT,
 name(String),
 address(String),
 gender(Character),
