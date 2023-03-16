@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Robin Hood",
+    "address": "12th St. Rhode Islant, CA, 06228",
+    "gender": "M",
+    "salary": 100050.25,
+    "bonus": 100.10
+  },
+  {
+    "name": "Mikhaila James",
+    "address": "42nd Street, Brooklyn Avenue, NY, 11065",
+    "gender": "F",
+    "salary": 400050.25,
+    "bonus": 200.10
+  },
+  {
+    "name": "James Bond",
+    "address": "1002N Fifth Street, Fairfield, IA, 11220",
+    "gender": "M",
+    "salary": 200050.25,
+    "bonus": 300.10
+  },
+  {
+    "name": "Teddi Arnold",
+    "address": "4th Folsom Street, San Francisco, CA, 97729",
+    "gender": "F",
+    "salary": 300050.25,
+    "bonus": 400.10
+  },
+  {
+    "name": "Leyna Whittaker",
+    "address": "147th Hillcrest Ave., Floral Island, FL, 22198",
+    "gender": "F",
+    "salary": 3500780.25,
+    "bonus": 470.50
+  }
+]
