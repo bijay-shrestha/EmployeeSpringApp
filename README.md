@@ -13,7 +13,7 @@ salary(Big Decimal),
 bonus(Double)
 ```
 Write two **RESTful APIs** that would: 
-1. Get the Highest Paid Employee
+1. Get the Highest Paid Employee `salary + bonus`
 2. Get all the female employee
 
 ```
